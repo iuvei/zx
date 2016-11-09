@@ -1,0 +1,89 @@
+.nav {
+    height: 600px;
+    background: url("../images/nav_bg.png") repeat-x;
+
+    /*background-color: orange;*/
+}
+
+.nav .navul {
+    width: 1200px;
+    height: 135px;
+
+}
+.hudie{
+    position: relative;
+
+}
+
+.nav .navul > li {
+    float: left;
+    height: 135px;
+    width: 125px;
+    /*padding: 0 26px;*/
+    font-size: 18px;
+    position: relative;
+}
+
+.nav .navul .ahover{
+    padding-top: 100px;
+    padding-bottom: 0px;
+    background: rgba(4,7,5,.5) no-repeat center bottom;
+    /*background-image: url("../images/nav_bg2.png") bottom;*/
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    opacity: 0;
+    /*display: none;*/
+}
+.nav .navul .ahover li{
+    height: 34px;
+    width: 125px;
+}
+.nav .navul .ahover span{
+    display: inline-block;
+    position: absolute;
+    width: 125px;
+    height: 33px;
+    background: url("../images/nav_bg2.png") bottom;
+    left:0;
+    bottom: -33px;
+}
+.nav .navul  li{
+    text-align: center;
+}
+
+.nav .navul > li>a{
+    display: inline-block;
+    padding-bottom: 33px;
+    padding-top: 53px;
+    position: relative;
+    z-index: 3;/*提高a标签层级*/
+}
+
+/*将第四个li右面分离出距离给logo*/
+.nav .navul .separate {
+    margin-right: 200px;
+}
+/*设置div.ahover*/
+.ahover{
+    width: 125px;
+    /*height: 135px;*/
+    background-color: gray;
+    position: absolute;
+}
+/*设置logo*/
+.logo a{
+    width: 205px;
+    height: 165px;
+    display: inline-block;
+    background: url("../images/zhuxianlogo.png") -0px -0px no-repeat;
+    text-indent: -200000em;
+}
+.logo {
+    position: absolute;
+    left: 586px;
+    top: 17px;
+    z-index: 0;
+}
+
+

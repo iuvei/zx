@@ -1,0 +1,430 @@
+@charset "UTF-8";
+*{
+     margin: 0;
+     padding: 0;
+}
+/*top 栏*/
+#box {
+
+     height: 65px;
+     line-height: 65px;
+     background-color: #F3F1F2;
+
+}
+.top .w {
+     width: 1000px;
+     height: 65px;
+
+}
+
+.img1{
+     float: left;
+}
+.img2{
+     float: left;
+     margin: 15px;
+}
+
+
+.dr li{
+     float: left;
+     font-size: 20px;
+     margin-left: 2px;
+}
+
+.bjt{
+    width: 952px;
+    height: 187px;
+    display: none;
+}
+/*top栏结束*/
+/*客服中心开始*/
+.tab{
+     height: 90px;
+     background:url(../img/98.png)  repeat-x;
+}
+
+
+.im{
+     float: left;
+}
+.im p{
+     font-size: 30px;
+     line-height: 90px;
+     color: aqua;
+}
+.ig ul{
+     float: right;
+
+}
+
+.ig li{
+     float: left;
+     line-height: 90px;
+     font-size: 20px;
+     margin-left: 25px;
+     /*color: aliceblue;*/
+
+}
+.ig li a:hover{
+    color: aliceblue;
+}
+/*客服中心结束*/
+/*轮播图开始*/
+.pic{
+     height: 245px;
+     background-color:#F3F1F2 ;
+}
+.picc {
+     width: 950px;
+     height: 245px;
+     overflow: hidden;
+     position: relative;
+
+}
+
+.picc ul{
+     width: 1000%;
+     position: absolute;
+}
+
+.picc li{
+     float: left;
+     width: 940px;
+}
+
+.picc .square1{
+     position: absolute;
+     right: 15px;
+     bottom:0px;
+
+
+}
+
+.square1   .current{
+    background-color: aqua;
+}
+.square1 span{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     background-color:pink;
+     text-align: center;
+     line-height: 20px;
+     cursor: pointer;
+     border-radius:5px;
+}
+/*轮播图结束*/
+/*热门搜索*/
+.hot{
+     height: 60px;
+     position: relative;
+
+}
+
+.hotwl{
+     float: left;
+
+}
+.hotwl .sp{
+     line-height: 60px;
+     font-size: 20px;
+     color: red;
+}
+.hotwl span{
+     font-size: 16px;
+     color: darkgray;
+
+}
+.hotwr{
+     width: 300px;
+     height: 35px;
+     border: 1px solid red;
+     float:right;
+     margin-top: 15px;
+     border-radius: 15px ;
+
+
+}
+.hotwr li{
+     float: left;
+     display: block;
+     line-height:40px ;
+     margin-left: 10px;
+
+
+
+}
+.hotwr .text{
+     width: 220px;
+     color: darkgray;
+    background-color: #F3F1F2;
+}
+.hotwr .btn{
+     width: 50px;
+     font-size: 24px;
+     line-height:35px ;
+     color: black;
+     background-color: #F3F1F2;
+
+
+}
+.hotww{
+     height: 240px;
+}
+
+.hotww .hot-1{
+     width: 224px;
+     height: 238px;
+     border: 1px solid grey;
+     float: left;
+     margin-right: 31px;
+}
+.hotww .hot-1 img{
+     margin: 8px;
+}
+.hotww .hot-1 li{
+     line-height: 20px;
+     margin-left: 30px;
+     font-size: 15px;
+}
+
+.hotww .hot-1 span{
+      margin-left:80px;
+      color: darkgray;
+      cursor: pointer;
+}
+
+.hotww .hot-2{
+     width: 224px;
+     height: 238px;
+     border: 1px solid grey;
+     float: left;
+     margin-right: 31px;
+}
+.hotww .hot-2 img{
+     margin: 8px;
+}
+.hotww .hot-2 li{
+     line-height: 20px;
+     margin-left: 30px;
+     font-size: 15px;
+}
+
+.hotww .hot-2 span{
+     margin-left:80px;
+     color: darkgray;
+     cursor: pointer;
+}
+
+.hotww .hot-3{
+     width: 224px;
+     height: 238px;
+     border: 1px solid grey;
+     float: left;
+     margin-right:31px;
+}
+.hotww .hot-3 img{
+     margin: 8px;
+}
+.hotww .hot-3 li{
+     line-height: 20px;
+     margin-left: 30px;
+     font-size: 15px;
+}
+
+.hotww .hot-3 span{
+     margin-left:80px;
+     color: darkgray;
+     cursor: pointer;
+}
+
+.hotww .hot-4{
+     width: 224px;
+     height: 238px;
+     border: 1px solid grey;
+     float: left;
+}
+.hotww .hot-4 img{
+     margin: 8px;
+}
+.hotww .hot-4 li{
+     line-height: 20px;
+     margin-left: 30px;
+     font-size: 15px;
+}
+
+.hotww .hot-4 span{
+     margin-left:80px;
+     color: darkgray;
+     cursor: pointer;
+}
+
+/*轮播图*/
+
+.service{
+     margin-top: 20px;
+     height: 400px;
+     background-color:#F3F1F2 ;
+
+}
+
+
+.ser {
+     width: 1000px;
+     height: 400px;
+     overflow: hidden;
+     position: relative;
+
+}
+
+.square2   .cur{
+    background-color: aqua;
+}
+
+.service ul{
+     width: 1000%;
+     position: absolute;
+}
+
+.service li{
+     float: left;
+}
+
+.service .square2{
+     position: absolute;
+     right: 15px;
+     bottom:0px;
+
+
+}
+
+.square2 p{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     background-color:pink;
+     text-align: center;
+     line-height: 20px;
+     cursor: pointer;
+     border-radius:5px;
+}
+/*轮播图*/
+
+/*热门搜索结束*/
+/*底部*/
+.footer{
+     height: 80px;
+     background-color:#F3F1F2 ;
+
+}
+
+.footer li .libox{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-10px;
+    left: -85px;
+
+    display: none;
+
+}
+
+
+.footer li{
+     float: left;
+     margin-top:25px;
+     margin-left:60px;
+     display: inline;
+}
+.footer img {
+    align: middle;
+}
+.footer li  p{
+     display: inline;
+}
+/*底部结束*/
+
+/*小火箭*/
+
+body {
+     height:1200px;
+     background-color:#F3F1F2 ;
+}
+
+.actGotop {
+     position: fixed;
+     bottom: 50px;
+     right: 50px;
+     width: 80px;
+     height:80px;
+     display: none;
+     z-index: 100;
+
+}
+
+.actGotop a, .actGotop a:link {
+     width: 150px;
+     height: 195px;
+     display: inline-block;
+     background: url(../img/im.png) no-repeat;
+     outline: none;
+}
+
+/*底部*/
+.footerl{
+    margin-top: 20px;
+    height:2px;
+    background-color:#F3F1F2
+}
+.foot-l{
+    width: 144px;
+    height: 143px;
+    margin-top: 18px;
+    background: url(../img/lo.png) no-repeat;
+    float: left;
+    margin-right: 50px;
+}
+.foot-l a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -2000em;
+}
+.foot{
+    width:1050px;
+    height: 125px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.top-logo{
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.top-logo li{
+    float: left;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+}
+.top-logo ul{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+.top-logo li a{
+    color: #666;
+    font-size: 14px;
+}
+.bott-text{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    height: 60px;
+    width: 1000px;
+    line-height: 20px;
+}
+
+

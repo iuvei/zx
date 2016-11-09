@@ -1,0 +1,118 @@
+.main-body .hot {
+    height: 296px;
+    /*background-color: mediumpurple;*/
+    position: relative;
+}
+
+.main-body .hot h2 {
+    margin-top: 20px;
+    color: #444444;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+/*,,,,,,,,*/
+/*手风琴*/
+.main-body  h2 {
+    margin-top: 10px;
+    color: #444444;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.fold_wrap ul {
+    list-style: none;
+    width: 1210px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.fold_wrap li {
+    float: left;
+    width: 170px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pic_auto {
+    width: 100%;
+    height: 100%;
+}
+
+.mask_b {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+.mask_b h4 {
+    color: #fff;
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    font: 30px/30px 楷体;
+    position: relative;
+    padding: 60px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-body .share {
+    margin: 20px auto;
+    margin-bottom: 50px;
+    height: 35px;
+    width: 516px;
+    background: url("../images/share.fw.png");
+    position: relative;
+}
+
+.main-body .share .share_more {
+    width: 209px;
+    height: 65px;
+    background: url("../images/share_1.fw.png") no-repeat;
+    position: absolute;
+    right: -227px;;
+    top: 12px;
+    padding: 5px 7px;
+    display: none;
+}
+.main-body .share>span{
+    width: 67px;
+    height: 34px;
+    display: inline-block;
+    float:right;
+    /*background-color: red;*/
+}
+.main-body .share .share_more .show{
+    height: 23px;
+    width: 90px;
+    float: left;
+    margin-right: 5px;
+
+    /*鼠标上来显示边框*/
+}
+.main-body .share .share_more .show:hover{
+    border: 1px solid #C2C2C2;
+    background-color: rgba(232,232,232,.3);
+}
+

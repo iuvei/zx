@@ -1,0 +1,298 @@
+
+
+.banxin {
+    width: 1200px;
+
+    margin: 0 auto;
+}
+
+.dh {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 58px;
+    line-height: 60px;
+    background: #272f3e;
+    width: 100%;
+    border-bottom: 2px solid orange;
+
+}
+
+
+.dhz li {
+    float: left;
+    line-height: 60px;
+    width: 64px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.dh li a {
+    color: white;
+    font-family: 微软雅黑;
+}
+.dhz li a:hover {
+    border-radius: 50px;
+    color: #721e2b;
+    background-color: orange;
+
+}
+
+.dhr {
+    float: right;
+    line-height: 60px;
+
+}
+
+.dhr a {
+    color: white;
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
+
+.dhr a:hover {
+    border-radius: 50px;
+    color: #721e2b;
+    background-color: orange;
+}
+/*文字*/
+.content{
+position: relative;
+}
+
+.wz{
+    width: 350px;
+    height: 350px;
+position: absolute;
+    right: 0;
+}
+
+
+.content0{
+    height: 200px;
+    padding-top: 59.6px;
+    position: relative;
+}
+.content0 .s1{
+    display: inline-block;
+    width: 181px;
+    height: 131px;
+    background: url("../images/logo.png");
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.content0  .s2{
+    width: 83px;
+    height: 30px;
+    background: url("../images/c.png");
+    position: absolute;
+    left: 500px;
+    top:150px;
+    cursor: pointer;
+
+}
+.content0  .s3{
+    width: 83px;
+    height: 30px;
+    background: url("../images/cc.png");
+    position: absolute;
+    left: 600px;
+    top:150px;
+    cursor: pointer;
+}
+.content0 .s3:hover{
+    opacity: 0.5;
+}
+.content0 .s2:hover{
+    opacity: 0.5;
+}
+.content1 {
+    width: 1160px;
+    height:100px;
+    background:#fff;
+    line-height: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.5;
+    margin-bottom: 40px;
+    position: relative;
+}
+.content1_z{
+    float: left;
+}
+.content1_z .tt{
+    width: 400px;
+    height: 36px;
+    position: absolute;
+    top: 36px;
+}
+.content1_z .btn{
+    width: 80px;
+    height: 36px;
+    background: url("../images/1.png") 0 4px;
+    position: absolute;
+    left: 420px;
+    top: 36px;
+}
+.content1_r{
+    float: right;
+    height: 20px;
+}
+.content1_r p em{
+    color: red;
+    height: 40px;
+}
+.nav{
+    margin: 0 auto;
+    height: 250px;
+}
+.slider{
+    float: left;
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.slider ul{
+    width: 2000px;
+    position: absolute;
+}
+.slider ul li{
+    float: left;
+}
+.slider ul li a{
+    height: 250px;
+    width: 400px;
+    float: left;
+}
+.slider .xia{
+    position: absolute;
+    left: 100px;
+    bottom:15px;
+}
+.slider .xia span{
+    margin-right: 8px;
+    float: left;
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    background-color: gray;
+    cursor: pointer;
+}
+.slider .z1{
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 86px;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.5;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.slider .r1{
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 86px;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0.5;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.slider .xia .current{
+    background-color: orange;
+}
+
+.newsBox{
+    float: left;
+    width: 380px;
+    height: 230px;
+    background: #FFF;
+    padding: 10px;
+    opacity: 0.8;
+    color: brown;
+
+}
+.news1{
+    height: 30px;
+}
+.news1 h3{
+    float: left;
+}
+.news1 a{
+    float: right;
+}
+.newsBox li{
+    display: inline-block;
+    width: 300px;
+    height: 18px;
+}
+.newsBox span {
+    float: right;
+}
+
+/*游戏综合*/
+.yx{
+    margin-top: 10px;
+    background: white;
+    opacity: 0.7;
+    padding: 10px;
+    width: 1180px;
+    position: relative;
+}
+.yx h3{
+    font-size: 24px;
+    color: #e5a369;
+    border-bottom: 2px solid slateblue;
+
+}
+.yx img{
+    float: left;
+    cursor: pointer;
+}
+.yx .b1{
+    margin-top: 10px;
+
+}
+
+#m1{
+    position: absolute;
+    right: 40px;
+    top: 150px;
+}
+#m2{
+    position: absolute;
+    right: 180px;
+    top: 300px;
+}
+#m3{
+    position: absolute;
+    right: 95px;
+    top: 400px;
+}
+#m4{
+    position: absolute;
+    right: 250px;
+    top:500px;
+}
+#m5{
+     position: absolute;
+     right: 140px;
+    bottom: 22px;
+ }
+

@@ -1,0 +1,65 @@
+* {
+    word-wrap: break-word;
+}
+
+body {
+    background: #282828 url("../images/bg.jpg") no-repeat 50% 0;
+
+}
+
+
+textarea {
+    resize: none;
+}
+
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    empty-cells: show;
+    border-collapse: collapse;
+}
+
+caption, th {
+    text-align: left;
+    font-weight: 400;
+}
+
+ul li, .xl li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+}
+
+em, cite, i {
+    font-style: normal;
+}
+
+a {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+.cl:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.cl {
+    zoom: 1;
+}

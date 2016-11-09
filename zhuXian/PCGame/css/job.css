@@ -1,0 +1,333 @@
+#main .content-2 .box-jobs-main {
+    float: left;
+    width: 600px;
+    height: 475px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -60px
+}
+
+#main .content-2 .box-jobs {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 415px;
+    margin-top: 90px;
+    background: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_bg_a597b6a.png) no-repeat right -30px
+}
+
+#main .content-2 .box-jobs .jobs-tab {
+    position: absolute;
+    top: 0;
+    left: 26px;
+    height: 108px;
+    z-index: 2
+}
+
+#main .content-2 .box-jobs .jobs-tab li {
+    float: left;
+    width: 32px;
+    height: 108px;
+    overflow: hidden
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 108px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab span {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    text-indent: -999px
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab .name {
+    top: 10px;
+    left: 50%;
+    width: 20px;
+    height: 40px;
+    margin-left: -10px;
+    background-repeat: no-repeat
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab .ahover {
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 108px;
+    background: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_bg_2819288.png) no-repeat;
+    opacity: 0;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-1 .name {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_1_f88689a.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-2 .name {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_2_8fcff25.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-3 .name {
+    top: auto;
+    bottom: 10px;
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_3_6fd990e.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-4 .name {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_4_63eb155.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-5 .name {
+    top: auto;
+    bottom: 10px;
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_5_b3a7c15.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-6 .name {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_6_ccc7368.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-7 .name {
+    top: auto;
+    bottom: 10px;
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_7_a81e86d.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-8 .name {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_8_e603938.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-9 .name {
+    top: auto;
+    bottom: 10px;
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_9_e8f8f30.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-10 .name {
+    top: auto;
+    bottom: 10px;
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_10_8f0a3da.png)
+}
+
+#main .content-2 .box-jobs .jobs-tab li .tab-11 .name {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_btn_11_e6cadb8.png);
+    height: 60px
+}
+
+#main .content-2 .box-jobs .jobs-tab li:hover .tab .ahover, #main .content-2 .box-jobs .jobs-tab li.current .tab .ahover {
+    visibility: visible;
+    opacity: 1
+}
+
+#main .content-2 .box-jobs .jobs-tabcon {
+    position: relative;
+    width: 600px;
+    height: 415px
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con {
+    visibility: hidden;
+    position: absolute;
+    width: 600px;
+    height: 415px;
+    opacity: 0;
+    -moz-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -ms-transition: all .7s linear;
+    transition: all .7s linear
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con .exp {
+    position: absolute;
+    top: 140px;
+    left: 26px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #525252;
+    -moz-transform: translate(-100px, 0);
+    -webkit-transform: translate(-100px, 0);
+    -o-transform: translate(-100px, 0);
+    -ms-transform: translate(-100px, 0);
+    transform: translate(-100px, 0);
+    -moz-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -ms-transition: all .7s linear;
+    transition: all .7s linear
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con .exp span {
+    color: #e75900
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con .form {
+    position: absolute;
+    top: 215px;
+    left: 36px;
+    display: block;
+    width: 197px;
+    height: 170px;
+    background-repeat: no-repeat;
+    -moz-transform: translate(-100px, 0);
+    -webkit-transform: translate(-100px, 0);
+    -o-transform: translate(-100px, 0);
+    -ms-transform: translate(-100px, 0);
+    transform: translate(-100px, 0);
+    -moz-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -ms-transition: all .7s linear;
+    transition: all .7s linear
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con .figure {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 500px;
+    height: 505px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    -moz-transform: translate(50%, 0);
+    -webkit-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+    -moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    transition: all .4s linear
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-1 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_1_form_1ebc5b3.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-1 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_1_figure_b98afcb.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-2 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_2_form_f250edb.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-2 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_2_figure_98e32d5.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-3 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_3_form_f64cc71.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-3 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_3_figure_a38dfed.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-4 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_4_form_f3a54ec.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-4 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_4_figure_daeae87.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-5 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_5_form_39bb638.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-5 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_5_figure_711fb04.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-6 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_6_form_39bb638.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-6 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_6_figure_d398e19.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-7 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_7_form_b180275.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-7 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_7_figure_73bec50.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-8 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_8_form_645c13b.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-8 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_8_figure_a11054d.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-9 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_9_form_55f0aff.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-9 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_9_figure_df5a48d.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-10 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_10_form_9608ed7.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-10 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_10_figure_361f609.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-11 .form {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_11_form_e63c807.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .jobs-con-11 .figure {
+    background-image: url(http://res.tx3.netease.com/pc/gw/20151118161534/images/jobs_11_figure_b97d8d2.png)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .current {
+    visibility: visible;
+    opacity: 1
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .current .exp {
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .current .form {
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+#main .content-2 .box-jobs .jobs-tabcon .current .figure {
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
+}

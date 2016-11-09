@@ -1,0 +1,23 @@
+.header{
+    height: 56px;
+    background-color: #FAFAFA;
+
+
+
+}
+.header .wrap{
+    padding-left:80px;/*让内容向右移动*/
+
+}
+/*图片右部li标签*/
+.header ul {
+    float:right;
+    margin-right: 80px;
+
+}
+.header ul li{
+    float:left;
+    height: 56px;
+    margin-right: 28px;
+    line-height: 56px;
+}

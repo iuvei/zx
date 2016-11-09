@@ -1,0 +1,270 @@
+.main-body {
+    margin-top: -30px;
+}
+
+.main-body .download {
+    height: 356px;
+    margin-bottom: 30px;
+    /*background-color: yellow;*/
+    position: relative;
+}
+
+/*下载游戏那块*/
+
+/*设置白条,滚动消息*/
+.main-body .download .rolling {
+    height: 43px;
+    background-color: #fff;
+    opacity: 0.8;
+    line-height: 43px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    overflow: hidden;
+    /*width: 900px;*/
+    margin-left: 300px;
+}
+
+.main-body .download strong {
+    display: inline-block;
+    height: 43px;
+    width: 300px;
+    background-color: #fff;
+    opacity: 0.8;
+    position: relative;
+    top: 43px;
+    line-height: 43px;
+    padding-left: 10px;
+    /*margin-right: px;*/
+
+}
+
+.main-body .download .rolling span {
+    margin-left: 300px;
+    height: 43px;
+    position: absolute;
+}
+
+.main-body .download .rolling span i {
+    font-style: normal;
+    color: red;
+}
+
+.main-body .download .rolling span s {
+    color: red;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/*设置下面左边的盒子*/
+.main-body .download .left {
+    /*float: left;*/
+    position: absolute;
+}
+
+.main-body .download .left .top {
+    width: 300px;
+    height: 130px;
+    background: url("../images/download_1.fw.png");
+}
+
+.main-body .download .left .top:hover {
+    background-image: url("../images/download_hover.fw.png");
+}
+
+.main-body .download .left .top img {
+    vertical-align: bottom;
+}
+
+.main-body .download .left .bottom {
+    padding-top: 33px;
+    width: 300px;
+    height: 153px;
+    /*background: url("../images/qlink_bg.jpg") no-repeat;*/
+    /*background:-webkit-gradient(radial,50% 50%,1,50% 50%,100,from(rgba(189,189,189,0.8)),to(rgba(189,189,189,0.5)));*/
+    background-color: rgba(32,32,33,1);
+
+}
+
+
+
+.main-body .download .left .bottom a {
+    /*color: rgba(44, 44, 44, 1);*/
+}
+
+.main-body .download .left .bottom span {
+    /*width: 70px;
+    height: 28px;
+    display: inline-block;
+    background-color: red;*/
+}
+
+/*设置li浮动*/
+.main-body .download .left .bottom li {
+    float: left;
+    width: 123px;
+    height: 53px;
+}
+
+.main-body .download .left .bottom span {
+    font-size: 18px;
+}
+
+.main-body .download .left .bottom ul {
+    overflow: hidden;
+    /*margin-top: 33px;*/
+    margin-left: 45px;
+}
+
+/*设置中间的盒子*/
+.main-body .download .center {
+    height: 315px;
+    width: 600px;
+    /*float: left;*/
+    overflow: hidden;
+    position: absolute;
+    left: 300px;
+}
+
+/*设置右边盒子*/
+.main-body .download .right {
+    /*float: right;*/
+    width: 300px;
+    height: 315px;
+    background-color: #202021;
+    position: absolute;
+    left: 900px;
+    overflow: hidden;
+}
+
+/*盒子中的ul*/
+.main-body .download .right .news-tab {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main-body .download .right .news-tab span {
+    font-size: 18px;
+
+}
+
+.main-body .download .right .news-tab li {
+    float: left;
+    padding: 0 13px;
+    border-bottom: 1px solid #6E6E6E;
+    padding-bottom: 10px;
+}
+
+/*右边tab切换栏*/
+.main-body .download .right .news-tab .current {
+    border-bottom: 2px solid white;
+}
+
+.news-tab .current {
+    border-bottom: white 1px solid;
+}
+
+/*.products {*/
+/*width: 1002px;*/
+/*border: 1px solid #ddd;*/
+/*height: 476px;*/
+/*}*/
+.products .main {
+    float: left;
+    display: none;
+}
+
+.products .main img {
+    margin-top: 20px;
+}
+
+.products .main.selected {
+    display: block;
+}
+
+/*轮播图*/
+.main-body .download .center ul {
+    width: 4800px;
+    height: 315px;
+    position: absolute;
+
+}
+
+.main-body .download .center li {
+    float: left;
+}
+
+.main-body .download .center #left {
+    display: block;
+    width: 50px;
+    height: 50px;
+    /*background-color: red;*/
+    font-weight: 800;
+    position: absolute;
+    left: 0;
+    top: 127px;
+    font-size: 60px;
+    color: #ff7219;
+    text-shadow: #ff7219 0 4px 0;
+    opacity: 0.5;
+}
+
+.main-body .download .center #right {
+    display: block;
+    width: 50px;
+    height: 50px;
+    /*background-color: red;*/
+    font-weight: 800;
+    position: absolute;
+    right: -18px;
+    top: 127px;
+    font-size: 60px;
+    color: #ff7219;
+    text-shadow: 0 4px 0 #ff7219;
+    opacity: 0.5;
+
+}
+
+.main-body .download .center #arr {
+    display: none;
+    cursor: pointer;
+}
+
+.main-body .download .center ol {
+    position: absolute;
+    bottom: 0;
+    left: 237px;
+}
+
+.main-body .download .center ol li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    /*border-radius: 30px;*/
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.8;
+    float: left;
+    margin: 8px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    /*padding: 4px;*/
+    /*outline-style: inherit;*/
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg) /*margin-top:10px;
+    border-color: rgba(255,255,255,.3);
+    border-style: solid;
+    border-width: 5px;
+    width: 10px;
+    height: 10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);*/
+}
+
+/*body{
+    background-image: url("../images/blurred-background-07.png");
+}*/
+

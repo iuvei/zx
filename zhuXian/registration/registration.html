@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title>诛仙</title>
+    <link rel="stylesheet" href="css/css.css"/>
+</head>
+<body>
+<div id="topbar">
+    <div id="topbar-main" class="topbar-main">
+        <a href="../端游主页（马莹莹，闫兵）/index.html" class="topbar-logo"></a>
+        <div id="topbar-news">
+            <span>
+                <img src="images/1.jpg" id="abc"/>
+                <img src="images/2.jpg" id="link">
+                <span id="close"></span>
+            </span>
+        </div>
+        <div id="mid">
+            <a href="#" id="reg">注册账号</a>
+            <a href="#" id="card">购卡充值</a>
+            <a href="#" id="gp">游戏云助手</a>
+        </div>
+        <div id="right">
+            <a href="#" id="fade">网络秀品商城</a>
+        </div>
+        <div id="menu">
+            <span>网易游戏全目录</span>
+
+            <div id="table"></div>
+        </div>
+    </div>
+    <div id="pic">
+        <input type="text" id="one" value="请输入你的手机号"/><span class="one" id="yi"></span>
+        <input type="text" id="two" value="密码必须是6-16位字符"/><span class="jd" id="er"></span>
+        <img src="images/1_r2_c2.png" alt="" id="pic1"/>
+        <img src="images/2_r1_c1.png" alt="" id="pic2"/>
+        <img src="images/btn_836be63.png" alt="" id="pic3"/>
+        <div id="pic4">
+            <img src="images/slogan.png" style="width:210px"/>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="foot-l">
+        <a href="#">诛仙</a>
+    </div>
+    <div class="foot">
+        <div class="top-logo">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <ul>
+                <li><a href="#">公司简介</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">客户服务</a></li>
+                <li><a href="#">相关法律</a></li>
+                <li><a href="#">网易游戏</a></li>
+                <li><a href="#">相关论坛</a></li>
+            </ul>
+        </div>
+        <div class="bott-text">
+            <p>
+                京ICP证：050016号　《网络文化经营许可证》编号：京网文[2011]0782-287号
+                《网络视听许可证》编号：0110587　京公网安备110105019888号 <br>
+                ? 2004-2016 Perfect World Co.,Ltd. All rights reserved.完美世界（北京）软件科技发展有限公司版权所有 <br>
+                本游戏适合18岁以上的玩家进入。<br>
+                积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。
+            </p>
+        </div>
+    </div>
+</div>
+<script>
+    var abc = document.getElementById("abc");
+    var link = document.getElementById("link");
+    abc.onmouseover = function () {
+        link.style.display = "block"
+    }
+    abc.onmouseout = function () {
+        link.style.display = "none"
+    }
+    var yi = document.getElementById("yi");
+    var er = document.getElementById("er");
+    var one = document.getElementById("one");
+    var two=document.getElementById("two");
+    var phoneReg =/^(13[0-9]|14[57]|15[0-9]|170|177|18[0-9])\d{8}$/;
+    checkReg(one, phoneReg);
+    var mima=/^.{4,16}$/
+    checkReg(two, mima);
+    function checkReg(element, regExp) {
+        element.onblur = function () {
+            if (regExp.test(this.value)) {
+                this.nextElementSibling.innerHTML = "正确";
+                this.nextElementSibling.style.color="pink"
+            } else {
+                this.nextElementSibling.innerHTML = "错误";
+                this.nextElementSibling.style.color="red"
+            }
+        }
+    }
+    one.onfocus = function () {
+        this.value = "";
+        this.style.color="blue"
+    }
+    two.onfocus = function () {
+        this.value = ""
+        this.style.color="blue"
+    }
+</script>
+</body>

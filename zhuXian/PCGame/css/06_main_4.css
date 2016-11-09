@@ -1,0 +1,207 @@
+.main-body .watch {
+    height: 490px;
+}
+
+.watch{
+    padding-bottom: 30px;
+}
+.watch .top {
+    /*height: 43px;*/
+    /*margin-right: 20px;*/
+    /*background-color: red;*/
+    padding-bottom: 20px;
+}
+
+.watch .top h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    /*float: left;*/
+    color: #444444;
+    font-size: 25px;
+    display: inline;
+    vertical-align: middle;
+    /*margin-left: 23px;*/
+}
+.watch .top .tongren-btns{
+    display: inline;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.watch .top .tongren-btns a{
+    margin-left: 30px;
+    color: #6E6E6E;
+}
+.watch .top .tongren-btns a:hover{
+    color: #ff7219;
+}
+
+
+.watch .left .div1 {
+    width: 215px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    float: left;
+}
+.watch .left .div1 p{
+    font-size: 15px;
+}
+
+.watch .left .div1 .img {
+    width: 215px;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.watch .left .div1 .img img{
+
+    position: absolute;
+
+}
+
+.watch .left {
+    float: left;
+    width: 900px;
+    height: 456px;
+}
+.watch .left .bott{
+    height: 49px;
+    width: 893px;
+    margin-top: 418px;
+}
+.watch .right{
+    float:right;
+    height: 458px;
+    width: 300px;
+}
+.watch .right .bottom li{
+    float:left;
+    position: relative;
+}
+/*设置二维码样式结构hover*/
+.watch .right .bottom a{
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+}
+.watch .right .bottom .btn-1{
+    background: url("../images/erweima1.fw.png") no-repeat;
+}
+.watch .right .bottom .btn-2{
+    background: url("../images/erweima4.fw.png") no-repeat;
+}
+.watch .right .bottom .btn-3{
+    background: url("../images/luntan.fw.png") no-repeat;
+}
+.watch .right .bottom .btn-3:hover{
+    background: url("../images/luntan6.jpg") no-repeat;
+}
+.watch .right .bottom .btn-4{
+    background: url("../images/erweima7.fw.png") no-repeat;
+}
+.watch .right .bottom .btn-4:hover{
+    background: url("../images/erweima8.jpg") no-repeat;
+}
+.watch .right .bottom img{
+    position: absolute;
+    left:20px;
+    /*z-index: 3;*/
+
+}
+#datas_apr .div1{
+    padding-bottom: 10px;
+
+}
+
+#datas_apr .div1 .img{
+    margin-bottom: 5px;
+    /*padding-top: 10px;*/
+}
+
+#datas_apr .div1 p{
+    padding-top: 10px;
+}
+#datas_apr .div1:hover p{
+    color: #ff7219;
+
+}
+.role .left{
+    position: relative;
+}
+
+.role .left .box-old{
+    width: 266px;
+    height: 393px;
+    padding: 22px 17px 0;
+    /*background: url("../images/jinian_bg.jpg") no-repeat 0px 10px;*/
+    background: #F0F0F0;
+}
+.role .left .box-old h3{
+    font-size: 25px;
+    color: #444444;
+    padding-left: 3px;
+}
+.role .left .box-old .old-btn{
+    position: relative;
+    width: 270px;
+    height: 92px;
+    margin: 16px -4px 0 0;
+}
+.role .left .box-old .old-btn li{
+    margin:3px 3px;
+    border-radius: 10px;
+    line-height: 46px;
+    text-align: center;
+    float: left;
+    width: 129px;
+    height: 46px;
+    background:RGBa(245,167,0,.6);
+}
+.role .left .box-old .old-btn li a{
+    color: #FFFFFF;
+}
+.role .left .box-old .old-btn li{
+    width: 129px;
+    height: 46px;
+    display: inline-block;
+}
+.role .left .box-old .old-btn li:hover{
+    background-color:#FC8444;
+    cursor: pointer;
+}
+.role .left .box-old .old-btn li:hover a{
+    color: white;
+}
+.role .left .box-old .jinian h4{
+    font-size: 20px;
+    margin-top: 30px;
+    float: left;
+    margin-left:10px;
+    color: #444444;
+}
+.role .left .box-old .jinian a{
+    margin-top: 30px;
+    float: right;
+}
+.role .left .box-old .jinian .jinian_listwrap{
+    width: 266px;
+    height: 162px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.role .left .box-old .jinian .jinian_listwrap .jinian_list{
+    position: absolute;
+    width: 266px;
+    /*background-color: red;*/
+}
+.role .left .box-old .jinian .jinian_listwrap .jinian_list .red{
+    color: #FD1A1A;
+}
+.role .left .box-old .jinian .jinian_listwrap .jinian_list .orange{
+    color:orange;
+}
+

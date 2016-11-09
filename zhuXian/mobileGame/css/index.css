@@ -1,0 +1,810 @@
+@charset "UTF-8";
+.header{
+    height: 43px;
+    padding:6px 0;
+    background-color: #ffffff;
+}
+.head{
+    height: 43px;
+    width: 1040px;
+    margin:0 auto;
+    padding-left: 40px;
+}
+.head .icon{
+    background:url("../images/icon_logo.png") no-repeat center;
+    height: 43px;
+    width: 43px;
+    margin-right: 50px;
+    float: left;
+}
+.head .menu{
+    margin-right: 45px;
+    padding-top: 12px;
+    float: left;
+
+}
+.head .menu li{
+    width: 117px;
+    height: 20px;
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    border-left: 1px solid #c2d0cf;
+    color: #527977;
+    cursor: pointer;
+}
+.head .menu .first{
+    border: none;
+}
+.head .menu li a{
+    width: 117px;
+    height: 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #527977
+}
+.head .menu li:hover a{
+    color:#d8767b;
+}
+.head .r-wx{
+    width: 102px;
+    height: 35px;
+    padding: 4px 0 4px 50px;
+    float: left;
+    position: relative;
+    background:url(../images/wx_head.png) 5px center no-repeat;
+}
+.head .r-wx p{
+    line-height: 17px;
+    font-size: 14px;
+    color: #527977;
+}
+.bg{
+    background:url("../images/bg_cover.jpg") no-repeat top center;
+    min-height: 905px;
+    min-width: 1260px;
+    position: relative;
+    overflow: hidden
+}
+.container{
+    width: 1260px;
+    margin: 0 auto;
+    position: relative;
+}
+.top-box {
+    width: 624px;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    width: 144px;
+    height: 143px;
+    margin-bottom: 10px;
+    background: url(../images/logo.png) no-repeat;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.slogan {
+    width: 450px;
+    height: 234px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: url(../images/slogan.png) center center no-repeat;
+}
+.sub-title{
+    width: 498px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: url(../images/fubiao2.png) center center no-repeat;
+}
+.play-btn{
+    width: 39px;
+    height: 45px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    background: url(../images/play_btn.png) center center no-repeat;
+    cursor: pointer;
+}
+/*第一部分新闻轮播图*/
+.news-box{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-top: 33px;
+}
+.left-cont {
+    width: 302px;
+    height: 360px;
+    background: #bce8e3;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+.tc_tit {
+    width: 148px;
+    height: 33px;
+    padding-left: 20px;
+    position: absolute;
+    top: -33px;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 33px;
+    background: url(../images/sysdw.png) center center no-repeat;
+    cursor: pointer;
+}
+.tc_dw {
+    width: 282px;
+    height: 163px;
+    padding: 10px;
+
+    background: #bce8e3;
+    float: left;
+}
+.code2D {
+    width: 162px;
+    height: 164px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    display: none;
+}
+.pic1{
+    width: 162px;
+    height: 164px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+    text-align: center;
+}
+.code2D img {
+    width: 118px;
+    height: 118px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+.pic1 img {
+    width: 162px;
+    height: 164px;
+    display: block;
+}
+.code2D p{
+    color: #3ccdb0;
+    font-size: 14px;
+}
+.tc_dw a {
+    width: 110px;
+    height: 77px;
+    display: block;
+    text-align: center;
+    float: left;
+    background: #fff;
+    color: #0bac9c;
+    font-size: 21px;
+}
+.tc_dw a.appstore {
+    height: 47px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    line-height: 23px;
+    background: url(../images/dl_ios.png) center center no-repeat;
+}
+.tc_dw a.android {
+    height: 47px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    line-height: 23px;
+    background: url(../images/dl_and.png) center center no-repeat;
+}
+.new_server{
+    width: 258px;
+    height: 134px;
+    background: #fff;
+    float: left;
+}
+.new_server{
+    padding:22px;
+}
+.item_tit{
+    width: 258px;
+    border-bottom: 1px solid #2ac5a6;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.item_tit h2{
+    float: left;
+    font-size: 22px;
+    color: #2ac5a6;
+
+}
+.item_tit span{
+    font-size: 12px;
+}
+.news_list{
+    margin-top: 10px;
+}
+.news_list li{
+    padding-left: 16px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.news_list li a{
+    font-size: 14px;
+    color: #0bac9c;
+}
+.news_list ul li b {
+    display: block;
+    width: 11px;
+    height: 13px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: url(../images/tit_icon.png) no-repeat;
+}
+.news-l{
+    width: 620px;
+    height: 360px;
+    background: #ddd;
+    float: left;
+}
+/*轮播图*/
+.screen{
+    width: 620px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+
+.screen ul li{
+    float: left;
+    width: 620px;
+}
+.dot {
+    width: 11px;
+    height: 11px;
+    margin: 0 7px;
+    float: left;
+    text-indent: -9999px;
+    cursor: pointer;
+    background: url(../images/上部轮播图/dot.png) center center no-repeat;
+}
+.dot.active {
+    background: url(../images/上部轮播图/doth.png) center center no-repeat;
+}
+
+.dots {
+    width: 260px;
+    height: 11px;
+    position: relative;
+    margin: 0 auto;
+    top: -20px;
+}
+.news-r{
+    width: 300px;
+    height: 362px;
+    background: #fff;
+    float: right;
+}
+.news_r_tit{
+    width: 300px;
+    height: 22px;
+    padding: 28px 0;
+    background: #baebe5;
+}
+.r_title{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #09a799;
+    font-family: "微软雅黑";
+    font-style: normal;
+    font-weight: bold;
+
+}
+.news{
+    width:270px;
+    height: 284px;
+    margin: 0 auto;
+}
+.tab_ul {
+    width: 250px;
+    overflow: hidden;
+    border-bottom: 1px solid #baebe5;
+
+}
+.tab_ul li {
+    float: left;
+    width: 39px;
+    height: 25px;
+    margin-right:11px;
+    font: normal 14px/26px "宋体";
+    color: #2fc4a6;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+
+}
+
+.tab_cont {
+    width: 250px;
+    height: 210px;
+    font-size: 12px;
+    position: relative;
+
+}
+
+.news_ul li {
+    width: 270px;
+    height: 22px;
+    line-height: 22px;
+    padding: 5px 0 0;
+    color: #454545;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    position: relative;
+}
+.news_ul{
+    margin-top: 5px;
+}
+
+.news_ul li a {
+    display:inline-block;
+    width:230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    color: #464646;
+}
+.news_ul li a:hover{
+    color: #be353c;
+}
+.news_ul li span{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.newsTab li.on{
+    border-bottom:4px solid #2ac5a6;
+}
+/*中间新手指南游戏资料部分*/
+.story{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-top: 33px;
+}
+.story_libao{
+    width: 302px;
+    height: 360px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+.story_libao .guanfang{
+    width: 302px;
+    height: 116px;
+}
+.story_libao .guanfang a{
+    display: block;
+    width: 302px;
+    height: 116px;
+    background: url(../images/guan_btn.png) no-repeat;
+}
+.xinshou{
+    width: 300px;
+    height: 108px;
+    background: url(../images/xinshou.jpg) no-repeat;
+    margin-top: 13px;
+}
+.xin_btn_a{
+    display: block;
+    width: 300px;
+    height:108px;
+}
+.gaoshou{
+    width: 300px;
+    height: 108px;
+    background: url(../images/jinjie.jpg) no-repeat;
+    margin-top: 13px;
+}
+.gao_btn_a{
+    display: block;
+    width: 300px;
+    height:108px;
+}
+/*中间轮播图*/
+.role{
+    width: 620px;
+    height: 360px;
+    float: left;
+    background: #fff;
+    position: relative;
+}
+.role_list {
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    z-index: 4;
+}
+.role_list .on{
+    background: url(../images/中部轮播图/rolelisth_hover.png) no-repeat;
+}
+.role_list a {
+    width: 35px;
+    height: 41px;
+    color: #fff;
+    text-align: center;
+    line-height: 41px;
+    display: block;
+    background: url(../images/中部轮播图/rolelisth.png) no-repeat;
+    margin-bottom: 8px;
+}
+.role_list a:hover{
+    background: url(../images/中部轮播图/rolelisth_hover.png) no-repeat;
+}
+.role_img{
+    width: 620px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+.role_img ul{
+    width: 6000px;
+}
+.role_img li{
+    position: absolute;
+    width: 620px;
+    height: 360px;
+}
+
+
+
+/*右侧*/
+.game_info {
+    width: 256px;
+    height: 338px;
+    padding:22px;
+    padding-bottom: 0;
+    background: #fff;
+    float: right;
+
+}
+.info_list{
+    margin-top: 12px;
+}
+.info_list_btn{
+    cursor: default;
+}
+.info_list .info_list_btn{
+    display: block;
+    width: 53px;
+    height: 21px;
+    line-height: 21px;
+    border: 1px solid #2ac2a7;
+    color: #2ac2a7;
+    text-align: center;
+}
+.info_list ul{
+    margin-top: 8px;
+    overflow: hidden;
+}
+.info_list ul li{
+    float: left;
+    border-right: 1px solid #464646;
+
+}
+.info_list ul li a{
+    padding: 0 7px;
+    color: #464646;
+}
+.info_list ul li a:hover{
+    color: #2ac2a7;
+}
+.info_list ul li.info_list_btn_end{
+    border-right:0;
+}
+.info_list_more{
+    width: 206px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-top: 1px solid #2ac2a7;
+    border-bottom: 1px solid #2ac2a7;
+    text-align: center;
+}
+.info_list_more a{
+    display: block;
+    width: 206px;
+    height:30px;
+    color: #2ac2a7;
+}
+.info_list_more a:hover{
+    background: url(../images/list_more.png) no-repeat;
+}
+/*第三行攻略媒体部分*/
+.news_m{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-top: 33px;
+}
+.games {
+    width: 256px;
+    height: 338px;
+    padding:22px;
+    padding-bottom: 0;
+    overflow: hidden;
+    margin-right: 20px;
+    background: #fff;
+    float: left;
+    position: relative;
+}
+.stra_img{
+    margin-top: 8px;
+}
+.games ul li{
+    padding-left: 16px;
+    position: relative;
+    margin-top: 5px;
+    border-bottom: 1px dotted #464646;
+    padding-bottom: 7px;
+}
+.games ul li b{
+    display: block;
+    width: 11px;
+    height: 13px;
+    position: absolute;
+    top:2px;
+    left:0;
+    background: url(../images/tit_icon.png) no-repeat;
+}
+.games ul li a {
+    color: #464646;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    width: 227px;
+}
+.games ul li a:hover{
+    color: #9c9458;
+}
+.media_box{
+    width: 620px;
+    height:360px;
+    background: #fff;
+    float: left;
+}
+.media_box .media-top{
+    width:578px;
+    margin: 0 auto;
+    overflow:hidden;
+    border-bottom: 1px solid #2ac5a6;
+    padding-bottom: 5px;
+    margin-top: 20px;
+
+}
+.media_box .media-top ul li a{
+    display: block;
+    color: #38bdaa;
+    font-size: 14px;
+    padding:0 8px;
+    border-right: 1px solid #38bdaa;
+}
+.media_box .media-top ul li .line_end{
+    border-right: 0;
+}
+.media_box .media-top ul li a:hover{
+    color: #9e9552;
+}
+.media_box .media-top h2{
+    float:left;
+    font-size: 22px;
+    color: #2ac5a6;
+}
+.media_box .media-top h2 span{
+    font-size:12px;
+}
+.media_box .media-top ul{
+    float:right;
+    overflow:hidden;
+    margin-top: 12px;
+}
+.media_box .media-top ul li{
+    float:left;
+    text-align:center;
+    color: #2ac5a6;
+    cursor: pointer;
+
+}
+.media_box .media-top ul li.youmin{
+    margin-right: 5px;
+}
+.media_box .media-top ul li:hover{
+    color: #a2965a;
+}
+.media_box .pichigh{
+    height: 300px;
+    width: 560px;
+    margin:0 auto;
+    overflow: hidden;
+    padding:10px 0 0 10px;
+}
+.pichigh li{
+    height: 140px;
+    width:175px;
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 140px;
+    position: relative;
+}
+.pichigh li span{
+    height: 140px;
+    width: 175px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top:0;
+    text-align: center;
+    line-height: 140px;
+    color: white;
+    font-size: 22px;
+    display: none;
+}
+.service{
+    width: 256px;
+    height: 338px;
+    background: #fff;
+    float: right;
+    padding:22px;
+    padding-bottom: 0;
+    position: relative;
+}
+.wanmei_ma{
+    width: 128px;
+    margin: 0 auto;
+    margin-top: 32px;
+    font-size: 14px;
+    text-align: center;
+}
+.vip_zhuan{
+    width: 200px;
+    margin:0 auto;
+    font-size: 14px;
+    color: #2ac2a7;
+    margin-top: 30px;
+    padding-left:50px;
+}
+.vip_zhuan span{
+    font-weight: bold;
+}
+.vip_zhuan p a{
+    color: #2ac2a7;
+}
+/*健康游戏忠告*/
+.health{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.health h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #828788;
+    margin-bottom: 10px;
+}
+/*底部*/
+.footer{
+    height: 180px;
+    background-color: #fff;
+}
+.foot-l{
+    width: 144px;
+    height: 143px;
+    margin-top: 18px;
+    background: url(../images/logo.png) no-repeat;
+    float: left;
+    margin-right: 50px;
+}
+.foot-l a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -2000em;
+}
+.foot{
+    width: 1050px;
+    height: 125px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.top-logo{
+    height: 50px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.top-logo li{
+    float: left;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+}
+.top-logo ul{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+.top-logo li a{
+    color: #666;
+    font-size: 14px;
+}
+.bott-text{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    height: 60px;
+    width: 1000px;
+}
+.actGotop {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 40px;
+    height: 121px;
+    z-index: 100;
+    display: none;
+}
+
+.actGotop span{
+    display:block;
+    width: 24px;
+    /*height: 16px;*/
+    padding: 8px;
+    font-size: 14px;
+    color: #0bac9c;
+    border: 1px solid #0bac9c;
+    background: #fff;
+}
+.actGotop i{
+    display: block;
+    width: 40px;
+    height: 34px;
+    background: #0bac9c;
+    position: relative;
+    border: 1px solid #0bac9c;
+}
+.actGotop i:before{
+    content: '';
+    width: 16px;
+    height: 8px;
+    margin: -4px 0 0 -8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: url(../images/totop.png) center center no-repeat;
+}

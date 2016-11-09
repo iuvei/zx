@@ -1,0 +1,66 @@
+/*
+* @Author: y
+* @Date:   2016-8-27 15:20:57
+* @Last Modified by:   y
+* @Last Modified time: 2016-08-27 20:49:42
+*/
+
+/* 样式初始化,并定义版心盒子 */
+body,div,p,span,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 楷体,"Microsoft YaHei", Arial, 宋体, Tahoma, Verdana, SimSun;
+
+}
+s{
+    font-style:normal;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:#B0B0B0;
+}
+a:hover{
+    color: #ff7219;
+}
+input,img {
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+    border: 0 none;
+}
+li {
+    list-style: none;
+}
+.clearfix:after{
+    content:"";
+    height:0;
+    line-height:0;
+    clear:both;
+    display: block;
+    visibility:hidden;
+}
+/* 兼容ie浏览器 */
+.clearfix {
+    zoom: 1;
+}
+
+/* 定义版心盒子 */
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*超大背景图片*/
+.bg_l{
+    height: 2357px;
+    width: 1374px;
+    background: url("../images/bg_big.fw.png") no-repeat 0 0;
+    position:absolute;
+    left:50%;
+    margin-left: -687px;
+    z-index: -2;
+    overflow: hidden;
+}

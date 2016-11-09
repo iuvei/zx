@@ -1,0 +1,274 @@
+body,div,p,span,h1,h2,h3,h4,h5,h6,dl,ul,ol,li,dd{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+body{
+    width:100%;
+    height:100%;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input,img {
+    padding:0;
+    margin:0;
+    border:0 none;
+    outline-style: none;
+}
+
+.clearfix:after {
+    content:"";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear:both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom:1;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.center{
+    width:960px;
+    margin:0 auto;
+}
+.headerWrap{
+    background:#FBFBFB;
+}
+.header{
+    height: 70px;
+    background-color:#FBFBFB;
+    line-height: 70px;
+}
+.header .img{
+    float: left;
+}
+#img1{
+    vertical-align: middle;
+}
+#image2{
+    vertical-align: middle;
+
+}
+.header  ul li{
+    float: left;
+    list-style: none;
+    margin-left: 12px;
+}
+.header .right{
+    float: right;
+    margin-right: 10px;
+}
+
+.big{
+
+    display:none;
+    position: absolute;
+    top:70px;
+    left:164px;
+    z-index: 2;
+}
+#red{
+    color: red;
+}
+.image{
+    position:relative;
+    width: 1210px;
+    height: 504px;
+    background-image: url(../img/share_a59bc1d.jpg);
+    margin: 0 auto;
+}
+.image .bot{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:120px;
+    background-color: white;
+    opacity:.8;
+}
+.image ul{
+    width:960px;
+    height: 120px;
+}
+.image .bot ul li,.image .bot ul img{
+    float:left;
+}
+.image .bot ul li{
+    width:158px;
+    line-height:120px;
+    list-style: none;
+    float: left;
+    text-align:center;
+    font-size: 30px;
+    background: url(../img/b.jpg) -25px -15px;
+}
+.image .top ul{
+    position: relative;
+    right: 50px;
+    top:10px;
+
+}
+.image .top ul li{
+
+    float: left;
+    margin-left:30px;
+    font-size: 15px;
+}
+.nav{
+    height: 100px;
+    background-color:#F2F2F2;
+    position: relative;
+    margin-top: 87px;
+}
+.nav .left{
+    height: 100px;
+    line-height: 100px;
+    width: 207px;
+    background-color: #727272;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.nav .right{
+    position: absolute;
+    right: 0px;
+    top:10px;
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+.main{
+    height:317px;
+    margin-top: 50px;
+}
+.main .top{
+    width:960px;
+    height:85px;
+    border-bottom: 1px solid #C3C3C3;
+}
+.main .top .p1{
+    font-size: 15px;
+    font-weight: 700;
+}
+.main .top .p2{
+    font-size: 35px;
+    font-weight: 700;
+    color: orangered;
+    margin-top: 10px;
+}
+.main .right2{
+    float: right;
+    margin-top: 20px;
+    width: 485px;
+    height: 230px;
+    background: url(../img/f.jpg);
+}
+.main .right3{
+    float: right;
+    margin-top: 20px;
+    width: 485px;
+    height: 230px;
+    background: url(../img/c.jpg) ;
+}
+.main .right4{
+    float: right;
+    margin-top: 20px;
+    width: 485px;
+    height: 230px;
+    background: url(../img/d.jpeg);
+}
+.main .right5{
+    float: right;
+    margin-top: 20px;
+    width: 485px;
+    height: 230px;
+    background: url(../img/e.jpg);
+}
+.main .right6{
+    float: right;
+    margin-top: 20px;
+    width: 485px;
+    height: 230px;
+    background: url(../img/g.jpg);
+}
+.main .left{
+    float: left;
+}
+.main .left1,.left2{
+    width: 430px;
+    height: 80px;
+    border-bottom: 1px solid #C3C3C3;
+    text-indent: 2em;
+    margin-top: 20px;
+}
+.main .left a{
+    font-size: 20px;
+    margin-top: 10px;
+    float: right;
+    background-color: orangered;
+}
+.link{
+    width:960px;
+    height:80px;
+    border-bottom: 1px solid #000000;
+    margin-top: 90px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.link ul{
+    width: 533px;
+    height:22px;
+    margin: 0 auto;
+}
+.link ul li {
+    line-height:20px;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.link ul .one{
+    background: url(../img/icon.png) no-repeat 0px -350px;
+    padding-left: 20px;
+}
+.link ul .two{
+    background: url(../img/icon.png) no-repeat 0px 0px;
+    padding-left: 20px;
+}
+.link ul .three{
+    background: url(../img/icon.png) no-repeat 0px -324px;
+    padding-left: 20px;
+}
+.link ul .four{
+    background: url(../img/icon.png) no-repeat 0px -25px;
+    padding-left: 20px;
+}
+.link ul .five{
+    line-height:20px;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    background: url(../img/icon.png) no-repeat 0px -374px;
+    padding-left: 20px;
+}
+
+.footer{
+    text-align: center;
+    margin: 50px;
+    font-size: 12px;
+}
+.a{
+    position:relative;
+    top: -120px;
+    left: 50px;
+    z-index: -1;
+}

@@ -1,0 +1,116 @@
+.main-body .role {
+    height: 460px;
+    /*background-color: green;*/
+    padding-top: 40px;
+}
+
+.main-body .role .left {
+    float: left;
+
+}
+
+.main-body .role .center {
+    float: left;
+    height: 456px;
+    width: 600px;
+    /*opacity: 0.5;*/
+    /*background-color: red;*/
+}
+
+/*.main-body .role .center img{
+
+    margin-left: 140px;
+    margin-top: -55px;
+}*/
+.main-body .role .right {
+    float: right;
+    height: 414px;
+    width: 300px;
+    padding-top: 2px;
+
+}
+
+.main-body .role .right div {
+    width: 300px;
+    height: 138px;
+    cursor: pointer;
+    /*padding-bottom: 1px;*/
+
+}
+
+/*设置line的border移上去width变化*/
+.main-body .role .right span.line {
+    display: block;
+    height: 5px;
+    width: 0px;
+    background-color: #DA508B;
+    /*box-sizing: border-box;*/
+    /*border-bottom:3px solid red;*/
+    z-index: 30;
+    /*overflow: hidden;*/
+    position: relative;
+    top: -8px;
+
+}
+
+.main-body .role .right img {
+    margin: 0;
+}
+
+/*中间盒子job展示,淡入淡出*/
+
+/*职业名称定位*/
+.main-body .role .center {
+    position: relative;
+}
+
+.main-body .role .center .jobs-tab {
+    width: 500px;
+    left: 10px;
+    position: absolute;
+    z-index: 10;
+}
+
+.main-body .role .center .jobs-tab li {
+    float: left;
+    width: 20px;
+}
+
+.main-body .role .center .job {
+    overflow: hidden;
+    background: white;
+    height: 455px;
+    width: 598px;
+    position: absolute;
+    left: 0px;
+    top: -39px;
+
+}
+
+.main-body .role .center .job img {
+    margin: 0 0;
+}
+
+/*设置ul定位以及hover样式*/
+.role .jobs-tab li {
+    width: 25px;
+    padding-left: 4px;
+    padding-right: 2px;
+    margin-right: 3px;
+    border: 2px rgba(255, 255, 255, 0) solid;
+}
+
+.role .jobs-tab li a {
+    color: RGBa(0, 0, 0, 0.6);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.role .jobs-tab li:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-color: RGBa(255, 124, 0, 1);
+    outline: solid 2px red;
+    outline-offset: -3px;
+
+}
