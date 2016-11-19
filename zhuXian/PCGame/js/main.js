@@ -10,7 +10,8 @@ $(function(){
 
 
 //游戏下载
-$(function () {
+/*$(function () {
+    //游戏下载文字放大
     $(".main-body .download .left .bottom span").mouseenter(function () {
         $(this).stop().animate({"fontSize": "20px"}, 100).siblings().css({
             "fontSize": "18px",
@@ -20,7 +21,7 @@ $(function () {
         $(this).stop().animate({"fontSize": "18px"}, 100);
     })
 })
-
+*/
 
 //轮播图
 $(function () {

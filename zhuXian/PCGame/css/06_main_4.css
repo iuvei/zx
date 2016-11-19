@@ -44,6 +44,9 @@
 }
 .watch .left .div1 p{
     font-size: 15px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .watch .left .div1 .img {
@@ -55,9 +58,13 @@
 
 }
 .watch .left .div1 .img img{
-
-    position: absolute;
-
+    /*position: absolute;*/
+    transform: scale(1);
+    transition: all 300ms ease-out;
+}
+.watch .left .div1 .img img:hover{
+    /*position: absolute;*/
+    transform: scale(1.2);
 }
 
 .watch .left {

@@ -23,17 +23,19 @@
 
 }
 .fold_wrap ul {
+    position: relative;
     list-style: none;
-    width: 1210px;
+    width: 1206px;
     height: 250px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .fold_wrap li {
-    float: left;
-    width: 170px;
+    position:absolute;
+    /*float: left;*/
+    width: 475px;
     height: 250px;
-    position: relative;
     cursor: pointer;
 }
 
@@ -45,7 +47,7 @@
 .mask_b {
     position: absolute;
     overflow: hidden;
-    width: 100%;
+    width: 38%;
     height: 100%;
     left: 0;
     top: 0;
