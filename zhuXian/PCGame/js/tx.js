@@ -166,13 +166,14 @@ $(document).ready(function() {
                 }
             });
             $(this).children(".mask_b").stop().animate({ "width": "100%","opacity":"0" }, 300);
+            $(this).siblings("li").children(".mask_b").stop().animate({ "width": "30%","opacity":"1" }, 300);
         });
 
         $li.mouseleave(function() {
             $li.each(function(index, val) {
                 $(this).stop().animate({ "left": index * 171 }, 300);
             });
-            $(this).children(".mask_b").stop().animate({ "width": "38%","opacity":"1" }, 300);
+            $li.children(".mask_b").stop().animate({ "width": "38%","opacity":"1" }, 300);
         });
     });;
     //share
