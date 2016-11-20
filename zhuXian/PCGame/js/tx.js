@@ -165,14 +165,14 @@ $(document).ready(function() {
                     $(this).stop().animate({ "left": (index -1)*120 + 475 }, 300);
                 }
             });
-            $(this).children(".mask_b").stop().animate({ "width": "100%" }, 300).fadeOut();
+            $(this).children(".mask_b").stop().animate({ "width": "100%","opacity":"0" }, 300);
         });
 
         $li.mouseleave(function() {
             $li.each(function(index, val) {
-                setTimeout($(this).animate({ "left": index * 171 }, 300),0);
+                $(this).stop().animate({ "left": index * 171 }, 300);
             });
-            setTimeout($(this).children(".mask_b").stop().animate({ "width": "38%" }, 100).fadeIn(),0)
+            $(this).children(".mask_b").stop().animate({ "width": "38%","opacity":"1" }, 300);
         });
     });;
     //share
