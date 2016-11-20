@@ -166,7 +166,7 @@ $(document).ready(function() {
                 }
             });
             $(this).children(".mask_b").stop().animate({ "width": "100%","opacity":"0" }, 300);
-            $(this).siblings("li").children(".mask_b").stop().animate({ "width": "30%","opacity":"1" }, 300);
+            $(this).siblings("li").children(".mask_b").stop().animate({ "width": "26%","opacity":"1" }, 300);
         });
 
         $li.mouseleave(function() {
