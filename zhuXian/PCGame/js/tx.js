@@ -3,37 +3,47 @@
  * Created by y on 2016/8/28.
  */
 
+
+
+ /*白条滚动文字*/
+ $.ajax({
+     "url":"/white",
+     "type":"GET",
+     "success":function (data) {
+         // 请求发送成功
+         // var white=document.getElementById("white");
+          // console.log("白条请求成功");
+         $("#white>span").html(data);
+     },
+     "error":function () {
+         console.log("请求失败");
+     }
+ });
+ /*请求纪年文字*/
+ $.ajax({
+     "url":"/jinian",
+     "type":"GET",
+     "success":function (data) {
+         // 请求发送成功
+         // var white=document.getElementById("white");
+         console.log("请求成功");
+         
+         $("#jinian_list").html(data);
+     },
+     "error":function () {
+         console.log("请求失败");
+     }
+ });
+
+
+
+
+
+
+
+
 // 入口函数
 $(document).ready(function() {
-    /*白条滚动文字*/
-    $.ajax({
-        "url":"/white",
-        "type":"GET",
-        "success":function (data) {
-            // 请求发送成功
-            // var white=document.getElementById("white");
-            console.log("请求成功");
-            
-            $("#white").html(data);
-        },
-        "error":function () {
-            console.log("请求失败");
-        }
-    });
-    /*纪年文字*/
-    $.ajax({
-        "url":"/jinian",
-        "type":"GET",
-        "success":function (data) {
-            // 请求发送成功
-            // var white=document.getElementById("white");
-            console.log("请求成功");
-            $("#jinian_list").html(data);
-        },
-        "error":function () {
-            console.log("请求失败");
-        }
-    });
     //动态生成图片
     //同人大赏动态生成
     var datas_ap = [
@@ -126,10 +136,10 @@ $(document).ready(function() {
 
 
     // 设置白条消息滚动
-    //长长滚动条
-    $(function() {
-        $(".main-body .download .rolling span").stop().animate({ "left": -100000 + "px" }, 6000000, "linear")
-    })
+    // 长长滚动条
+    // console.log($("#white span"));
+    $("#white>span").animate({ "left": -100000 }, 6000000, "linear");
+    
 
     //设置右侧鼠标放上去长条变宽
     $(".role .right div").mouseenter(function() {
@@ -175,7 +185,6 @@ $(document).ready(function() {
         $(this).find(".img_hover").stop().animate({ "top": "120px" }, 500);
     });
    
-
     //手风琴
     $(function() {
         //给每一个li添加一个动态图片
