@@ -145,6 +145,19 @@ $(document).ready(function() {
     $(".watch .right .bottom li:eq(1)").mouseleave(function() {
         $(this).find(".img_hover").stop().animate({ "top": "120px" }, 500);
     });
+    /*白条滚动文字*/
+    $.ajax({
+        "url":"/white",
+        "type":"GET",
+        "success":function (data) {
+            // 请求发送成功
+            var white=document.getElementById("white");
+            white.html(data);
+        },
+        "error":function () {
+            console.log("请求失败");
+        }
+    });
 
 
     //手风琴
